@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 20px ;
+}
+.name{
+    color: orangered;
+}
+.half-width{ margin-left: 5%;
+    padding-left:2%; 
+    padding-top: 55px;
+    width: 40%;
+    float: left;
+}
+img {
+    width:450px ;
+    margin-left:140px;
+  }
+.top-banner{
+    background-image: url(header-bg.png);
+background-repeat:no-repeat;
+   
+}
+section{
+    height: 500px;
+    padding-bottom: 50px;
+}
+.for{
+    text-decoration: none;
+    color: rgb(219, 230, 240);
+    border: 5px solid transparent ;
+    border-radius:  20px;
+    background-image: radial-gradient(#1a457e,#80311b),
+    radial-gradient(circle at top left,#26ff00,#220afb );
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 700;
+
+}
+.for span{
+
+    padding:30px;}
+
+.mR{
+margin-left:10px;
+}
+.dream-area{
+    background-image: url(biography-bg.png);
+    background-repeat: no-repeat;
+    background-position:right ;
+}
+.last{
+    color:rgb(37, 9, 4);
+    text-align: center;
+    background-color:rgb(150, 151, 146);
+}
+.last2{
+    color: rgb(47, 9, 3);
+    text-align: center;
+}
+.commitment-one{
+    text-align:center;
+    background-image: url(footer-bg.png);
+}
+.commitment-one h5{
+    align-items: center;
+}
+.contact-me{
+    width: 100%;
+    height: 280px;
+    background-image: url(project-in-your-mind.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-me p{
+    color:#FFFFFF;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 3px solid ;
+    margin-bottom: 20px;
+}
+.contact-me button{
+    width: 200px;
+    height: 40px;
+    background-color: #FFFFFF;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+footer{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+     position: relative;
+
+}
+footer p{
+  margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer p:nth-child(1) {
+    font-size: 30px;
+    font-weight: bold;
+    color:#191919 ; 
+    line-height: 10px;
+}
+
+footer p:nth-child(2){
+    font-size: 16px;
+    color: #7e7d7d;
+    width: 600px;
+    text-align: center;
+}
+.social-icons a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+ .social-icons{
+     display: flex;
+ }
+ .copyright{
+     columns: #565555;
+     font-size: 13px;
+     position: relative ;
+     left: 43%;
+     bottom:40;
+     transform: translateX(-50%);
+ }
+.social-icons i{
+    color: #000000;
+}
+.social-icons a:hover{
+    background-color:#3d3e46
+}
+#footer-img{
+    background-image: url(footer-bg.png);
+ background-repeat: no-repeat;
+}
